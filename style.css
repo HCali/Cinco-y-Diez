@@ -106,9 +106,10 @@ input, select {
 * {
   text-decoration: none;
 }
+
 main {
   padding-top: 100px;
-  
+
 }
 
 header {
@@ -232,10 +233,6 @@ header .header-cases {
   background-color: #f2f2f2;
 }
 
-p {
-  color: #111;
-}
-
 .index-links div h3 {
   font-family: Catamaran;
   font-size: 28px;
@@ -284,7 +281,71 @@ p {
     line-height: 30px;
 
   }
+}
 
+/*CASES*/
+
+.cases-links {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cases-links h2{
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+}
+.cases-links .cases-link {
+  float: left;
+  width: 230px;
+  height: 230px;
+  margin: 20px 10px 0px;
+  background-color: #e3e3e3;
+}
+.cases-links .cases-link p {
+  padding-top: 45%;
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*CASE*/
+
+.case-vid h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+.case-vid video {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.case-vid article h3 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.case-vid article div p {
+  font-family: Catamaran;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #111;
+  text-transform: uppercase;
+  column-count: 3;
+  column-gap: 30px;
 }
 /*FOOTER*/
 
@@ -335,7 +396,7 @@ footer ul li a {
 
     footer ul li p {
       font-family: Catamaran;
-      font-size: 24px;
+      font-size: 16px;
       color: #fff;
       line-height: 40px;
       text-transform: uppercase;
